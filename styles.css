@@ -3,14 +3,35 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(pictures/senja.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(pictures/hero-background1.jpg);
   width: 100%;
   background-position: center;
   background-repeat: none;
   background-size: cover;
   padding: 250px 0;
-  margin: 10px;
   color: rgb(221, 226, 231);
   text-align: center;
+}
+
+.container-hero {
+  background-color: rgb(10, 10, 10);
+  opacity: 0.4;
+  max-width: 500px;
+  margin: 0 50px 0 auto;
+  padding: 50px 30px;
+  text-transform: uppercase;
+  text-align: right;
+  border-radius: 5px;
+  position: relative;
+  top: -60px;
+}
+
+.container-hero h2 {
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+.container-hero p {
+  font-size: 12px;
+  letter-spacing: 5px;
 }
