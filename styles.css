@@ -99,3 +99,20 @@ footer a {
   border: none;
   background-color: var(--background-color);
 }
+
+.fa-brands,
+.fa-regular {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  font-size: 30px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 480%;
+  transition: all 100ms ease-in-out;
+}
+
+.fa-brands:hover,
+.fa-regular:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
