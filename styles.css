@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important ;
 }
 
 h1,
@@ -22,13 +22,14 @@ p {
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
-    url(pictures/hero-background1.jpg);
+    url(pictures/hero-pic.jpg);
   width: 100%;
   background-position: center;
   background-repeat: none;
   background-size: cover;
   padding: 250px 0;
   color: var(--secondary-color);
+  height: 100vh;
 }
 
 .container-hero {
@@ -41,7 +42,7 @@ p {
   text-align: right;
   border-radius: 5px;
   position: relative;
-  top: -60px;
+  top: -100px;
 }
 
 .container-hero h2 {
@@ -59,9 +60,18 @@ p {
 
 .navbar a {
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 .navbar-nav .nav-item {
   margin-right: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
 }
