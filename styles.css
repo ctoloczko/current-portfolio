@@ -1,17 +1,34 @@
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --default-font-family: "Hind", sans-serif;
+  --primary-color: #1b1b1b;
+  --secondary-color: #e9e9e9;
+  --background-color: #f7f5f4;
+}
+
 body {
-  background-color: whitesmoke;
+  background-color: var(--background-color);
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+}
+
+a,
+p {
+  font-family: var(--default-font-family);
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
     url(pictures/hero-background1.jpg);
   width: 100%;
   background-position: center;
   background-repeat: none;
   background-size: cover;
   padding: 250px 0;
-  color: rgb(221, 226, 231);
-  text-align: center;
+  color: var(--secondary-color);
 }
 
 .container-hero {
@@ -29,9 +46,22 @@ body {
 
 .container-hero h2 {
   font-size: 32px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 .container-hero p {
   font-size: 12px;
+  letter-spacing: 7px;
+}
+
+.navbar {
+  background-color: var(--background-color);
+}
+
+.navbar a {
+  text-transform: uppercase;
   letter-spacing: 5px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
 }
