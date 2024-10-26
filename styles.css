@@ -132,3 +132,7 @@ button {
   letter-spacing: 3px;
   text-transform: uppercase !important;
 }
+
+.logo {
+  max-width: 130px;
+}
