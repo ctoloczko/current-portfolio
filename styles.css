@@ -12,6 +12,7 @@ body {
 
 h1,
 h2,
+h3,
 h5 {
   font-family: var(--heading-font-family);
   text-transform: uppercase;
@@ -104,7 +105,8 @@ footer a {
 }
 
 .fa-brands,
-.fa-regular {
+.fa-regular,
+.fa-solid {
   color: var(--background-color);
   background-color: var(--primary-color);
   font-size: 30px;
@@ -115,7 +117,8 @@ footer a {
 }
 
 .fa-brands:hover,
-.fa-regular:hover {
+.fa-regular:hover,
+.fa-solid:hover {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
