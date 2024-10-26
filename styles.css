@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--background-color) !important;
+  overflow-x: hidden;
 }
 
 h1,
@@ -137,4 +138,8 @@ button {
 
 .logo {
   max-width: 130px;
+}
+
+.col-md-3 img {
+  border-radius: 6px;
 }
