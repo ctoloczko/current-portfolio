@@ -136,6 +136,14 @@ button {
   text-transform: uppercase !important;
 }
 
+button a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
 .logo {
   max-width: 130px;
 }
